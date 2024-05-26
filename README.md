@@ -1,1 +1,1 @@
-# typescript-invresify
+# typescript-inversify
