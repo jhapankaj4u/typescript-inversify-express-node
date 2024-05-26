@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es6", 
+    "module": "commonjs",
+    "lib": ["es6"],
+    "types": ["reflect-metadata"],
+    "sourceMap": true,
+    "baseUrl": "src",
+    "paths": { "@apps/*": ["*"] },
+    "outDir": "dist",                                   
+    "strict": true,
+    "strictPropertyInitialization": false,                              
+    "moduleResolution": "node",                                   
+    "typeRoots": ["./src/@types", "./node_modules/@types"],
+    "esModuleInterop": true,       
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,                                                             
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,            
+  },
+  "include": ["src/**/*"],
+}
